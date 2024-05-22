@@ -27,7 +27,7 @@ int main(int argc, char *argv[]){
 		printf("%lf",r);
 	}
 	else if (strcmp(op, "carre") == 0) {
-		r = _carre(atof(a), atof(b));
+		r = _carre(atof(a));
 		printf("%lf",r);
 	}
 	else {printf("Erreur de parametres");}
